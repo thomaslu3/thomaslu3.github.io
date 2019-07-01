@@ -1,9 +1,152 @@
+@font-face {
+	font-family: "Vollkorn-Bold";
+	src: url("fonts/Vollkorn/Vollkorn-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Roboto_Mono";
+	src: url("fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+	font-family: "manrope-semibold";
+	src: url("fonts/manrope/fonts/ttf/manrope-semibold.ttf");
+}
+
+@font-face {
+	font-family: "manrope-medium";
+	src: url("fonts/manrope/fonts/ttf/manrope-medium.ttf");
+}
+
+html {
+	background-color: #8AC0FF;
+}
+
+body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	padding-top: 20px;
+}
+
+.menu-nav-bar {
+	border-bottom: 1px solid black;
+}
+
+#logotype {
+	font-family: "Vollkorn-Bold";
+	font-size: 40px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu-bar {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #ffffff;
+}
+
+#menu-brand {
+	float: left;
+}
+
+.menu-item {
+	float: right;
+}
+
+.menu-link {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Roboto_Mono";
+	display: block;
+  	color: #000000;
+  	text-align: center;
+  	padding: 14px 16px;
+}
+
+.menu-link:hover {
+	text-decoration: none;
+	color: #00229A;
+}
+
+.menu-link:active {
+	text-decoration: none;
+	color: #0038FF;
+}
+
+#about {
+	background-image: url('assets/confetti.jpg');
+	background-size: contain;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#about-content {
+	width: 90%;
+	display:inline-flex;
+  	/*flex-direction: column;*/
+  	flex-wrap:wrap;
+  	justify-content:space-around;
+  	padding-top: 10%;
+  	padding-bottom: 10%;
+}
+
+#thomas-intro {
+	font-family: "manrope-semibold";
+	font-size: 24px;
+	color: #000000;
+	float: left;
+	margin-top: 5%;
+}
+
+#thomas-headshot {
+	float: left;
+}
+
+#work {
+
+}
+
+#portfolio {
+
+}
+
+#footer {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	background-color: #8AC0FF;
+}
+
+#footer-text {
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	font-family: "manrope-medium";
+	font-size: 14px;
+	color: #000000;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-/*
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,6 +171,7 @@ time, mark, audio, video {
 	box-sizing: border-box;         
 }
 
+/*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
